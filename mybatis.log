@@ -1,0 +1,752 @@
+[DEBUG][2014-08-20 16:29:13,296][org.springframework.test.context.junit4.SpringJUnit4ClassRunner]SpringJUnit4ClassRunner constructor called with [class testmybatis.AppTest].
+[TRACE][2014-08-20 16:29:13,312][org.springframework.test.context.ContextLoaderUtils]Retrieved @ContextConfiguration attributes [{name=, value=[], classes=[], loader=interface org.springframework.test.context.ContextLoader, locations=[classpath:spring.xml,classpath:spring-mybatis.xml], initializers=[], inheritLocations=true, inheritInitializers=true}] for declaring class [testmybatis.AppTest].
+[TRACE][2014-08-20 16:29:13,328][org.springframework.test.context.ContextLoaderUtils]Resolved context configuration attributes: [ContextConfigurationAttributes@e6ff0d declaringClass = 'testmybatis.AppTest', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[TRACE][2014-08-20 16:29:13,328][org.springframework.test.context.ContextLoaderUtils]Processing ContextLoader for context configuration attributes [ContextConfigurationAttributes@e6ff0d declaringClass = 'testmybatis.AppTest', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[TRACE][2014-08-20 16:29:13,328][org.springframework.test.context.ContextLoaderUtils]Using default ContextLoader class [org.springframework.test.context.support.DelegatingSmartContextLoader] for test class [testmybatis.AppTest]
+[TRACE][2014-08-20 16:29:13,343][org.springframework.test.context.ContextLoaderUtils]Processing locations and classes for context configuration attributes [ContextConfigurationAttributes@e6ff0d declaringClass = 'testmybatis.AppTest', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[DEBUG][2014-08-20 16:29:13,343][org.springframework.test.context.support.AbstractDelegatingSmartContextLoader]Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@e6ff0d declaringClass = 'testmybatis.AppTest', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+[TRACE][2014-08-20 16:29:13,343][org.springframework.test.context.ContextLoaderUtils]Processing context initializers for context configuration attributes [ContextConfigurationAttributes@e6ff0d declaringClass = 'testmybatis.AppTest', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader']
+[DEBUG][2014-08-20 16:29:13,343][org.springframework.test.context.ContextLoaderUtils]Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,343][org.springframework.test.context.TestContextManager]@TestExecutionListeners is not present for class [testmybatis.AppTest]: using defaults.
+[TRACE][2014-08-20 16:29:13,359][org.springframework.test.context.TestContextManager]Registering TestExecutionListener: org.springframework.test.context.web.ServletTestExecutionListener@b5dac4
+[TRACE][2014-08-20 16:29:13,359][org.springframework.test.context.TestContextManager]Registering TestExecutionListener: org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12d96f2
+[TRACE][2014-08-20 16:29:13,359][org.springframework.test.context.TestContextManager]Registering TestExecutionListener: org.springframework.test.context.support.DirtiesContextTestExecutionListener@110003
+[TRACE][2014-08-20 16:29:13,359][org.springframework.test.context.TestContextManager]Registering TestExecutionListener: org.springframework.test.context.transaction.TransactionalTestExecutionListener@17e4ca
+[DEBUG][2014-08-20 16:29:13,359][org.springframework.test.annotation.ProfileValueUtils]Retrieved @ProfileValueSourceConfiguration [null] for test class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,359][org.springframework.test.annotation.ProfileValueUtils]Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved @ProfileValueSourceConfiguration [null] for test class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved @ProfileValueSourceConfiguration [null] for test class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved @ProfileValueSourceConfiguration [null] for test class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved @ProfileValueSourceConfiguration [null] for test class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [testmybatis.AppTest]
+[TRACE][2014-08-20 16:29:13,375][org.springframework.test.context.TestContextManager]beforeTestClass(): class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved @ProfileValueSourceConfiguration [null] for test class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.annotation.ProfileValueUtils]Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [testmybatis.AppTest]
+[TRACE][2014-08-20 16:29:13,375][org.springframework.test.context.TestContextManager]prepareTestInstance(): instance [testmybatis.AppTest@153f67e]
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.context.support.DependencyInjectionTestExecutionListener]Performing dependency injection for test context [[DefaultTestContext@15bdc50 testClass = AppTest, testInstance = testmybatis.AppTest@153f67e, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dd3812 testClass = AppTest, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.context.support.AbstractDelegatingSmartContextLoader]Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@1dd3812 testClass = AppTest, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+[DEBUG][2014-08-20 16:29:13,375][org.springframework.test.context.support.AbstractGenericContextLoader]Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@1dd3812 testClass = AppTest, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[DEBUG][2014-08-20 16:29:13,453][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2014-08-20 16:29:13,453][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2014-08-20 16:29:13,453][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO][2014-08-20 16:29:13,468][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[DEBUG][2014-08-20 16:29:13,484][org.springframework.beans.factory.xml.DefaultDocumentLoader]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[TRACE][2014-08-20 16:29:13,515][org.springframework.beans.factory.xml.PluggableSchemaResolver]Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd]
+[DEBUG][2014-08-20 16:29:13,515][org.springframework.beans.factory.xml.PluggableSchemaResolver]Loading schema mappings from [META-INF/spring.schemas]
+[DEBUG][2014-08-20 16:29:13,515][org.springframework.beans.factory.xml.PluggableSchemaResolver]Loaded schema mappings: {http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+[DEBUG][2014-08-20 16:29:13,515][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+[TRACE][2014-08-20 16:29:13,546][org.springframework.beans.factory.xml.PluggableSchemaResolver]Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-4.0.xsd]
+[DEBUG][2014-08-20 16:29:13,546][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/context/spring-context-4.0.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+[TRACE][2014-08-20 16:29:13,546][org.springframework.beans.factory.xml.PluggableSchemaResolver]Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd]
+[DEBUG][2014-08-20 16:29:13,546][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+[DEBUG][2014-08-20 16:29:13,562][org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]Loading bean definitions
+[DEBUG][2014-08-20 16:29:13,562][org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver]Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[DEBUG][2014-08-20 16:29:13,593][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service]
+[DEBUG][2014-08-20 16:29:13,593][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service] for files matching pattern [F:/workspace2013/testmybatis Maven Webapp/target/classes/com/service/**/*.class]
+[DEBUG][2014-08-20 16:29:13,609][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:com/service/**/*.class] to resources [file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service\UserServiceI.class], file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service\UserServiceImpl.class]]
+[TRACE][2014-08-20 16:29:13,609][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]Scanning file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service\UserServiceI.class]
+[TRACE][2014-08-20 16:29:13,609][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]Ignored because not matching any filter: file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service\UserServiceI.class]
+[TRACE][2014-08-20 16:29:13,609][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]Scanning file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service\UserServiceImpl.class]
+[DEBUG][2014-08-20 16:29:13,625][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]Identified candidate component class: file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\service\UserServiceImpl.class]
+[DEBUG][2014-08-20 16:29:13,640][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loaded 6 bean definitions from location pattern [classpath:spring.xml]
+[INFO][2014-08-20 16:29:13,640][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[DEBUG][2014-08-20 16:29:13,640][org.springframework.beans.factory.xml.DefaultDocumentLoader]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[TRACE][2014-08-20 16:29:13,640][org.springframework.beans.factory.xml.PluggableSchemaResolver]Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd]
+[DEBUG][2014-08-20 16:29:13,640][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+[TRACE][2014-08-20 16:29:13,656][org.springframework.beans.factory.xml.PluggableSchemaResolver]Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-3.1.xsd]
+[DEBUG][2014-08-20 16:29:13,656][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.1.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.1.xsd
+[TRACE][2014-08-20 16:29:13,656][org.springframework.beans.factory.xml.PluggableSchemaResolver]Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd]
+[DEBUG][2014-08-20 16:29:13,656][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+[TRACE][2014-08-20 16:29:13,656][org.springframework.beans.factory.xml.PluggableSchemaResolver]Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/aop/spring-aop-3.1.xsd]
+[DEBUG][2014-08-20 16:29:13,656][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.1.xsd] in classpath: org/springframework/aop/config/spring-aop-3.1.xsd
+[DEBUG][2014-08-20 16:29:13,671][org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]Loading bean definitions
+[DEBUG][2014-08-20 16:29:13,671][org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]No XML 'id' specified - using 'dataSource' as bean name and [] as aliases
+[DEBUG][2014-08-20 16:29:13,671][org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+[DEBUG][2014-08-20 16:29:13,687][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loaded 11 bean definitions from location pattern [classpath:spring-mybatis.xml]
+[INFO][2014-08-20 16:29:13,703][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1bf3d87: startup date [Wed Aug 20 16:29:13 CST 2014]; root of context hierarchy
+[DEBUG][2014-08-20 16:29:13,703][org.springframework.context.support.GenericApplicationContext]Bean factory for org.springframework.context.support.GenericApplicationContext@1bf3d87: org.springframework.beans.factory.support.DefaultListableBeanFactory@6214f5: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1]; root of factory hierarchy
+[DEBUG][2014-08-20 16:29:13,718][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,718][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,734][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2014-08-20 16:29:13,734][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,781][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,781][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,781][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:13,796][org.springframework.core.io.support.SpringFactoriesLoader]Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.mybatis.spring.mapper.MapperScannerConfigurer]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.mybatis.spring.mapper.MapperScannerConfigurer]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'addToConfig' of type [boolean]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'annotationClass' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'basePackage' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'markerInterface' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'processPropertyPlaceHolders' of type [boolean]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionFactory' of type [org.apache.ibatis.session.SqlSessionFactory]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionFactoryBeanName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate]
+[TRACE][2014-08-20 16:29:13,796][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionTemplateBeanName' of type [java.lang.String]
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\dao]
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\dao] for files matching pattern [F:/workspace2013/testmybatis Maven Webapp/target/classes/com/dao/**/*.class]
+[DEBUG][2014-08-20 16:29:13,796][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:com/dao/**/*.class] to resources [file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\dao\UserMapper.class]]
+[TRACE][2014-08-20 16:29:13,796][org.mybatis.spring.mapper.MapperScannerConfigurer$Scanner]Scanning file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\dao\UserMapper.class]
+[DEBUG][2014-08-20 16:29:13,796][org.mybatis.spring.mapper.MapperScannerConfigurer$Scanner]Identified candidate component class: file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\dao\UserMapper.class]
+[DEBUG][2014-08-20 16:29:13,796][org.mybatis.spring.mapper.MapperScannerConfigurer$Scanner]Creating MapperFactoryBean with name 'userMapper' and 'com.dao.UserMapper' mapperInterface
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'appliedPropertySources' of type [org.springframework.core.env.PropertySources]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'environment' of type [org.springframework.core.env.Environment]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'fileEncoding' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'ignoreResourceNotFound' of type [boolean]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'ignoreUnresolvablePlaceholders' of type [boolean]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'localOverride' of type [boolean]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'location' of type [org.springframework.core.io.Resource]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'locations' of type [[Lorg.springframework.core.io.Resource;]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'nullValue' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'order' of type [int]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'placeholderPrefix' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'placeholderSuffix' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'properties' of type [java.util.Properties]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'propertiesArray' of type [[Ljava.util.Properties;]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'propertiesPersister' of type [org.springframework.util.PropertiesPersister]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'propertySources' of type [org.springframework.core.env.PropertySources]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.beans.CachedIntrospectionResults]Found bean property 'valueSeparator' of type [java.lang.String]
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.core.env.MutablePropertySources]Adding [environmentProperties] PropertySource with lowest search precedence
+[INFO][2014-08-20 16:29:13,812][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.core.env.MutablePropertySources]Adding [localProperties] PropertySource with lowest search precedence
+[TRACE][2014-08-20 16:29:13,812][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("jdbc_url", String)
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_url' in [environmentProperties]
+[TRACE][2014-08-20 16:29:13,812][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("jdbc_url", String)
+[DEBUG][2014-08-20 16:29:13,812][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_url' in [systemProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_url' in [systemEnvironment]
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'jdbc_url'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'JDBC_URL'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'jdbc_url' in any property source. Returning [null]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_url' in [localProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Found key 'jdbc_url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/netsystem?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.util.PropertyPlaceholderHelper]Resolved placeholder 'jdbc_url'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("jdbc_username", String)
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_username' in [environmentProperties]
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("jdbc_username", String)
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_username' in [systemProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_username' in [systemEnvironment]
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'jdbc_username'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'JDBC_USERNAME'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'jdbc_username' in any property source. Returning [null]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_username' in [localProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Found key 'jdbc_username' in [localProperties] with type [String] and value 'zjxt'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.util.PropertyPlaceholderHelper]Resolved placeholder 'jdbc_username'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("jdbc_password", String)
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_password' in [environmentProperties]
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("jdbc_password", String)
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_password' in [systemProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_password' in [systemEnvironment]
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'jdbc_password'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'JDBC_PASSWORD'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'jdbc_password' in any property source. Returning [null]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'jdbc_password' in [localProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Found key 'jdbc_password' in [localProperties] with type [String] and value 'zjxt'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.util.PropertyPlaceholderHelper]Resolved placeholder 'jdbc_password'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("validationQuery", String)
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'validationQuery' in [environmentProperties]
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("validationQuery", String)
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'validationQuery' in [systemProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'validationQuery' in [systemEnvironment]
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'validationQuery'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'VALIDATIONQUERY'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'validationQuery' in any property source. Returning [null]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'validationQuery' in [localProperties]
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.core.env.PropertySourcesPropertyResolver]Found key 'validationQuery' in [localProperties] with type [String] and value 'SELECT 1'
+[TRACE][2014-08-20 16:29:13,828][org.springframework.util.PropertyPlaceholderHelper]Resolved placeholder 'validationQuery'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG][2014-08-20 16:29:13,828][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG][2014-08-20 16:29:13,843][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'exposeProxy' of type [boolean]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'frozen' of type [boolean]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'opaque' of type [boolean]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'optimize' of type [boolean]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'order' of type [int]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+[TRACE][2014-08-20 16:29:13,843][org.springframework.beans.CachedIntrospectionResults]Found bean property 'proxyTargetClass' of type [boolean]
+[DEBUG][2014-08-20 16:29:13,843][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.context.support.GenericApplicationContext]Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@111bfbc]
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.context.support.GenericApplicationContext]Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1c18a4c]
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6214f5: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,userMapper]; root of factory hierarchy
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'userServiceImpl'
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'userServiceImpl'
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[TRACE][2014-08-20 16:29:13,859][org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]Did not attempt to auto-proxy infrastructure class [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor]
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'advice' of type [org.aopalliance.aop.Advice]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'adviceBeanName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'order' of type [int]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'perInstance' of type [boolean]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'pointcut' of type [org.springframework.aop.Pointcut]
+[DEBUG][2014-08-20 16:29:13,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'transactionPointcut'
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.aop.aspectj.AspectJExpressionPointcut]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.aop.aspectj.AspectJExpressionPointcut]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'classFilter' of type [org.springframework.aop.ClassFilter]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'expression' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'location' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'methodMatcher' of type [org.springframework.aop.MethodMatcher]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'parameterNames' of type [[Ljava.lang.String;]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'parameterTypes' of type [[Ljava.lang.Class;]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'pointcutDeclarationScope' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'pointcutExpression' of type [org.aspectj.weaver.tools.PointcutExpression]
+[TRACE][2014-08-20 16:29:13,859][org.springframework.beans.CachedIntrospectionResults]Found bean property 'runtime' of type [boolean]
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'transactionPointcut'
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[TRACE][2014-08-20 16:29:13,875][org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]Did not attempt to auto-proxy infrastructure class [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor]
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1' to allow for resolving potential circular references
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'druid-stat-pointcut'
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:13,875][org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper]Skipping currently created advisor 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.aop.support.JdkRegexpMethodPointcut]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.aop.support.JdkRegexpMethodPointcut]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'classFilter' of type [org.springframework.aop.ClassFilter]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'excludedPattern' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'excludedPatterns' of type [[Ljava.lang.String;]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'methodMatcher' of type [org.springframework.aop.MethodMatcher]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'pattern' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'patterns' of type [[Ljava.lang.String;]
+[TRACE][2014-08-20 16:29:13,875][org.springframework.beans.CachedIntrospectionResults]Found bean property 'runtime' of type [boolean]
+[DEBUG][2014-08-20 16:29:13,890][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:13,890][org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper]Skipping currently created advisor 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:13,890][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:13,890][org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper]Skipping currently created advisor 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,031][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'druid-stat-pointcut'
+[DEBUG][2014-08-20 16:29:14,031][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,031][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [com.service.UserServiceImpl]: AutowiredFieldElement for private com.dao.UserMapper com.service.UserServiceImpl.userMapper
+[DEBUG][2014-08-20 16:29:14,031][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:14,031][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [com.service.UserServiceImpl]
+[TRACE][2014-08-20 16:29:14,031][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [com.service.UserServiceImpl]
+[TRACE][2014-08-20 16:29:14,031][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[DEBUG][2014-08-20 16:29:14,031][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected method of bean 'userServiceImpl': AutowiredFieldElement for private com.dao.UserMapper com.service.UserServiceImpl.userMapper
+[DEBUG][2014-08-20 16:29:14,031][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,031][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,031][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'userMapper'
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'userMapper'
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.mybatis.spring.support.SqlSessionDaoSupport]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.mybatis.spring.support.SqlSessionDaoSupport]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSession' of type [org.apache.ibatis.session.SqlSession]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionFactory' of type [org.apache.ibatis.session.SqlSessionFactory]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate]
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.annotation.InjectionMetadata]Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'userMapper' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.mybatis.spring.mapper.MapperFactoryBean]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.mybatis.spring.mapper.MapperFactoryBean]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'addToConfig' of type [boolean]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'mapperInterface' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'object' of type [java.lang.Object]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'objectType' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'singleton' of type [boolean]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSession' of type [org.apache.ibatis.session.SqlSession]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionFactory' of type [org.apache.ibatis.session.SqlSessionFactory]
+[TRACE][2014-08-20 16:29:14,046][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate]
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,046][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning eagerly cached instance of singleton bean 'userMapper' that is not fully initialized yet - a consequence of a circular reference
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.TypeConverterDelegate]Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@146e381]
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'sqlSessionFactory'
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'sqlSessionFactory'
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.mybatis.spring.SqlSessionFactoryBean]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.mybatis.spring.SqlSessionFactoryBean]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'configLocation' of type [org.springframework.core.io.Resource]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'configurationProperties' of type [java.util.Properties]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'dataSource' of type [javax.sql.DataSource]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'databaseIdProvider' of type [org.apache.ibatis.mapping.DatabaseIdProvider]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'environment' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'failFast' of type [boolean]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'mapperLocations' of type [[Lorg.springframework.core.io.Resource;]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'object' of type [java.lang.Object]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'objectType' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'plugins' of type [[Lorg.apache.ibatis.plugin.Interceptor;]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'singleton' of type [boolean]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlSessionFactoryBuilder' of type [org.apache.ibatis.session.SqlSessionFactoryBuilder]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionFactory' of type [org.apache.ibatis.transaction.TransactionFactory]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'typeAliases' of type [[Ljava.lang.Class;]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'typeAliasesPackage' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'typeHandlers' of type [[Lorg.apache.ibatis.type.TypeHandler;]
+[TRACE][2014-08-20 16:29:14,062][org.springframework.beans.CachedIntrospectionResults]Found bean property 'typeHandlersPackage' of type [java.lang.String]
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'dataSource'
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'dataSource'
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,062][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,093][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [com.alibaba.druid.pool.DruidDataSource]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [com.alibaba.druid.pool.DruidDataSource]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'ID' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'accessToUnderlyingConnectionAllowed' of type [boolean]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'activeConnectionStackTrace' of type [java.util.List]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'activeConnections' of type [java.util.Set]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'activeCount' of type [int]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'activePeak' of type [int]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'activePeakTime' of type [java.util.Date]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'breakAfterAcquireFailure' of type [boolean]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'cachedPreparedStatementAccessCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'cachedPreparedStatementCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'cachedPreparedStatementDeleteCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'cachedPreparedStatementHitCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'cachedPreparedStatementMissCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'clearFiltersEnable' of type [boolean]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'closeCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'closedPreparedStatementCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'commitCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'compositeData' of type [javax.management.openmbean.CompositeDataSupport]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'connectCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'connectErrorCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'connectProperties' of type [java.util.Properties]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'connection' of type [java.sql.Connection]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'connectionErrorRetryAttempts' of type [int]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'connectionInitSqls' of type [java.util.Collection]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'connectionProperties' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'createCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'createErrorCount' of type [long]
+[TRACE][2014-08-20 16:29:14,093][org.springframework.beans.CachedIntrospectionResults]Found bean property 'createTimespanMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'createTimespanNano' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'createdTime' of type [java.util.Date]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'dataSourceStat' of type [com.alibaba.druid.stat.JdbcDataSourceStat]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'dbType' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'defaultAutoCommit' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'defaultCatalog' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'defaultReadOnly' of type [java.lang.Boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'defaultTransactionIsolation' of type [java.lang.Integer]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'destroyCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'discardCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'driver' of type [java.sql.Driver]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'driverClassLoader' of type [java.lang.ClassLoader]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'driverClassName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'driverMajorVersion' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'driverMinorVersion' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'dupCloseCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'dupCloseLogEnable' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'enable' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'errorCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'exceptionSorter' of type [com.alibaba.druid.pool.ExceptionSorter]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'exceptionSorterClassName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'executeCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'filterClassNames' of type [java.util.List]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'filterClasses' of type [[Ljava.lang.String;]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'filters' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'full' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'initStackTrace' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'inited' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'initialSize' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lastCreateError' of type [java.lang.Throwable]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lastCreateErrorTime' of type [java.util.Date]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lastCreateErrorTimeMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lastError' of type [java.lang.Throwable]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lastErrorTime' of type [java.util.Date]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lastErrorTimeMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lock' of type [java.util.concurrent.locks.Lock]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'lockQueueLength' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'logAbandoned' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'logDifferentThread' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'logWriter' of type [java.io.PrintWriter]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'loginTimeout' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'maxActive' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'maxIdle' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'maxOpenPreparedStatements' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'maxPoolPreparedStatementPerConnectionSize' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'maxWait' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'maxWaitThreadCount' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'mbeanRegistered' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'minEvictableIdleTimeMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'minIdle' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'name' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'notEmptySignalCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'notEmptyWaitCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'notEmptyWaitMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'notEmptyWaitNanos' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'notEmptyWaitThreadCount' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'notEmptyWaitThreadPeak' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'notFullTimeoutRetryCount' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'numTestsPerEvictionRun' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'objectName' of type [javax.management.ObjectName]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'oracle' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'parentLogger' of type [java.util.logging.Logger]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'password' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'passwordCallback' of type [javax.security.auth.callback.PasswordCallback]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'passwordCallbackClassName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'poolPreparedStatements' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'pooledConnection' of type [javax.sql.PooledConnection]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'poolingConnectionInfo' of type [java.util.List]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'poolingCount' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'poolingPeak' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'poolingPeakTime' of type [java.util.Date]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'preparedStatementCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'properties' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'proxyFilters' of type [java.util.List]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'queryTimeout' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'rawDriver' of type [java.sql.Driver]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'rawDriverMajorVersion' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'rawDriverMinorVersion' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'rawJdbcUrl' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'recycleCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'recycleErrorCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'reference' of type [javax.naming.Reference]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'removeAbandoned' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'removeAbandonedCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'removeAbandonedTimeout' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'removeAbandonedTimeoutMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'resetCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'resetStatEnable' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'rollbackCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sharePreparedStatements' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlStat'
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'sqlStatMap' of type [java.util.Map]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'startTransactionCount' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'statData' of type [java.util.Map]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'statDataForMBean' of type [java.util.Map]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'statLogger' of type [com.alibaba.druid.pool.DruidDataSourceStatLogger]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'statLoggerClassName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'statValueAndReset' of type [com.alibaba.druid.pool.DruidDataSourceStatValue]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'testOnBorrow' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'testOnReturn' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'testWhileIdle' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'timeBetweenConnectErrorMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'timeBetweenEvictionRunsMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'timeBetweenLogStatsMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionHistogram' of type [com.alibaba.druid.util.Histogram]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionHistogramRanges' of type [[J]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionHistogramValues' of type [[J]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionQueryTimeout' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionThresholdMillis' of type [long]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'url' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'useGlobalDataSourceStat' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'useLocalSessionState' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'useOracleImplicitCache' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'useUnfairLock' of type [boolean]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'userCallback' of type [javax.security.auth.callback.NameCallback]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'username' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'validConnectionChecker' of type [com.alibaba.druid.pool.ValidConnectionChecker]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'validConnectionCheckerClassName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'validationQuery' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'validationQueryTimeout' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'version' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'waitThreadCount' of type [int]
+[TRACE][2014-08-20 16:29:14,109][org.springframework.beans.CachedIntrospectionResults]Found bean property 'wallStatMap' of type [java.util.Map]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@d647d8]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@d647d8]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@d647d8]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@d647d8]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [long] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@578dfb]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7a36a2]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7a36a2]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7a36a2]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [long] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@578dfb]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [long] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@578dfb]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7a36a2]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [int] using property editor [org.springframework.beans.propertyeditors.CustomNumberEditor@d647d8]
+[TRACE][2014-08-20 16:29:14,125][org.springframework.beans.TypeConverterDelegate]Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@7a36a2]
+[ERROR][2014-08-20 16:29:14,125][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[DEBUG][2014-08-20 16:29:14,140][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking init method  'init' on bean with name 'dataSource'
+[INFO][2014-08-20 16:29:14,203][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG][2014-08-20 16:29:14,203][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,203][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,203][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,203][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,250][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'dataSource'
+[TRACE][2014-08-20 16:29:14,250][org.springframework.beans.TypeConverterDelegate]Converting String to [class [Lorg.springframework.core.io.Resource;] using property editor [org.springframework.core.io.support.ResourceArrayPropertyEditor@b3b6a6]
+[DEBUG][2014-08-20 16:29:14,250][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\mapping]
+[DEBUG][2014-08-20 16:29:14,250][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\mapping] for files matching pattern [F:/workspace2013/testmybatis Maven Webapp/target/classes/com/mapping/*.xml]
+[DEBUG][2014-08-20 16:29:14,250][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath:com/mapping/*.xml] to resources [file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\mapping\UserMapper.xml]]
+[DEBUG][2014-08-20 16:29:14,265][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+[DEBUG][2014-08-20 16:29:14,265][org.mybatis.spring.SqlSessionFactoryBean]Property 'configLocation' not specified, using default MyBatis Configuration
+[DEBUG][2014-08-20 16:29:14,625][org.mybatis.spring.SqlSessionFactoryBean]Parsed mapper file: 'file [F:\workspace2013\testmybatis Maven Webapp\target\classes\com\mapping\UserMapper.xml]'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'sqlSessionFactory'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,625][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'userMapper'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'userMapper'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'userMapper'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]Autowiring by type from bean name 'userServiceImpl' to bean named 'userMapper'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'transactionAdvice'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'transactionAdvice'
+[TRACE][2014-08-20 16:29:14,640][org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'transactionAdvice' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.TransactionInterceptor]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionAttributeSource' of type [org.springframework.transaction.interceptor.TransactionAttributeSource]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionAttributeSources' of type [[Lorg.springframework.transaction.interceptor.TransactionAttributeSource;]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionAttributes' of type [java.util.Properties]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionManager' of type [org.springframework.transaction.PlatformTransactionManager]
+[TRACE][2014-08-20 16:29:14,640][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionManagerBeanName' of type [java.lang.String]
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'transactionManager'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'transactionManager'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,640][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.jdbc.datasource.DataSourceTransactionManager]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'dataSource' of type [javax.sql.DataSource]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'defaultTimeout' of type [int]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'nestedTransactionAllowed' of type [boolean]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'resourceFactory' of type [java.lang.Object]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'rollbackOnCommitFailure' of type [boolean]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionSynchronization' of type [int]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Found bean property 'validateExistingTransaction' of type [boolean]
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'dataSource'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'transactionManager'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean '(inner bean)#1aac07d'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,656][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[TRACE][2014-08-20 16:29:14,656][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]
+[TRACE][2014-08-20 16:29:14,671][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]
+[TRACE][2014-08-20 16:29:14,671][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,671][org.springframework.beans.CachedIntrospectionResults]Found bean property 'nameMap' of type [java.util.Map]
+[TRACE][2014-08-20 16:29:14,671][org.springframework.beans.CachedIntrospectionResults]Found bean property 'properties' of type [java.util.Properties]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [append*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [modify*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [edit*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [remove*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [repair] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [delAndRepair] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [load*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [search*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [datagrid*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource]Adding transactional method [*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean '(inner bean)#1aac07d'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'transactionAdvice'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'transactionAdvice'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'druid-stat-interceptor'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'druid-stat-interceptor'
+[TRACE][2014-08-20 16:29:14,671][org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]Did not attempt to auto-proxy infrastructure class [com.alibaba.druid.support.spring.stat.DruidStatInterceptor]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'druid-stat-interceptor' to allow for resolving potential circular references
+[TRACE][2014-08-20 16:29:14,671][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [com.alibaba.druid.support.spring.stat.DruidStatInterceptor]
+[TRACE][2014-08-20 16:29:14,671][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [com.alibaba.druid.support.spring.stat.DruidStatInterceptor]
+[TRACE][2014-08-20 16:29:14,671][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'druid-stat-interceptor'
+[DEBUG][2014-08-20 16:29:14,671][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'druid-stat-interceptor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]Creating implicit proxy for bean 'userServiceImpl' with 0 common interceptors and 3 specific interceptors
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.aop.framework.JdkDynamicAopProxy]Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.service.UserServiceImpl@1450bd]
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'userServiceImpl'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'dataSource'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'sqlSessionFactory'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'transactionManager'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'transactionAdvice'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'druid-stat-interceptor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'userMapper'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.context.support.GenericApplicationContext]Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@17c398e]
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'lifecycleProcessor'
+[TRACE][2014-08-20 16:29:14,687][org.springframework.context.support.GenericApplicationContext]Publishing event in org.springframework.context.support.GenericApplicationContext@1bf3d87: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.GenericApplicationContext@1bf3d87: startup date [Wed Aug 20 16:29:13 CST 2014]; root of context hierarchy]
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'sqlSessionFactory'
+[TRACE][2014-08-20 16:29:14,687][org.springframework.core.env.PropertySourcesPropertyResolver]getProperty("spring.liveBeansView.mbeanDomain", String)
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[TRACE][2014-08-20 16:29:14,687][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+[TRACE][2014-08-20 16:29:14,687][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+[TRACE][2014-08-20 16:29:14,687][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+[TRACE][2014-08-20 16:29:14,687][org.springframework.core.env.SystemEnvironmentPropertySource]PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[DEBUG][2014-08-20 16:29:14,687][org.springframework.test.context.CacheAwareContextLoaderDelegate]Storing ApplicationContext in cache under key [[MergedContextConfiguration@1dd3812 testClass = AppTest, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+[TRACE][2014-08-20 16:29:14,687][org.springframework.beans.CachedIntrospectionResults]Getting BeanInfo for class [testmybatis.AppTest]
+[TRACE][2014-08-20 16:29:14,687][org.springframework.beans.CachedIntrospectionResults]Caching PropertyDescriptors for class [testmybatis.AppTest]
+[TRACE][2014-08-20 16:29:14,687][org.springframework.beans.CachedIntrospectionResults]Found bean property 'class' of type [java.lang.Class]
+[TRACE][2014-08-20 16:29:14,687][org.springframework.beans.CachedIntrospectionResults]Found bean property 'userService' of type [com.service.UserServiceI]
+[DEBUG][2014-08-20 16:29:14,703][org.springframework.beans.factory.annotation.InjectionMetadata]Processing injected method of bean 'testmybatis.AppTest': AutowiredMethodElement for public void testmybatis.AppTest.setUserService(com.service.UserServiceI)
+[DEBUG][2014-08-20 16:29:14,703][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'userServiceImpl'
+[DEBUG][2014-08-20 16:29:14,703][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]Autowiring by type from bean name 'testmybatis.AppTest' to bean named 'userServiceImpl'
+[DEBUG][2014-08-20 16:29:14,703][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,703][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[DEBUG][2014-08-20 16:29:14,703][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[DEBUG][2014-08-20 16:29:14,703][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1'
+[TRACE][2014-08-20 16:29:14,703][org.springframework.test.context.TestContextManager]beforeTestMethod(): instance [testmybatis.AppTest@153f67e], method [public void testmybatis.AppTest.test1()]
+[TRACE][2014-08-20 16:29:14,703][org.springframework.transaction.support.TransactionSynchronizationManager]Initializing transaction synchronization
+[TRACE][2014-08-20 16:29:14,703][org.springframework.transaction.interceptor.TransactionInterceptor]Getting transaction for [com.service.UserServiceImpl.getUserById]
+[DEBUG][2014-08-20 16:29:14,718][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][2014-08-20 16:29:14,718][org.mybatis.spring.SqlSessionUtils]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9ca1fb]
+[TRACE][2014-08-20 16:29:14,718][org.springframework.transaction.support.TransactionSynchronizationManager]Bound value [org.mybatis.spring.SqlSessionHolder@1c7d56b] for key [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory@e931d9] to thread [main]
+[DEBUG][2014-08-20 16:29:14,734][org.springframework.jdbc.datasource.DataSourceUtils]Fetching JDBC Connection from DataSource
+[DEBUG][2014-08-20 16:29:14,734][org.springframework.jdbc.datasource.DataSourceUtils]Registering transaction synchronization for JDBC Connection
+[TRACE][2014-08-20 16:29:14,734][org.springframework.transaction.support.TransactionSynchronizationManager]Bound value [org.springframework.jdbc.datasource.ConnectionHolder@174cb21] for key [{
+	CreateTime:"2014-08-20 16:29:14",
+	ActiveCount:1,
+	PoolingCount:0,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:1,
+	ConnectCount:2,
+	Connections:[
+	]
+}] to thread [main]
+[TRACE][2014-08-20 16:29:14,734][org.springframework.transaction.support.TransactionSynchronizationManager]Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@174cb21] for key [{
+	CreateTime:"2014-08-20 16:29:14",
+	ActiveCount:1,
+	PoolingCount:0,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:1,
+	ConnectCount:2,
+	Connections:[
+	]
+}] bound to thread [main]
+[DEBUG][2014-08-20 16:29:14,734][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@c3e967] will be managed by Spring
+[DEBUG][2014-08-20 16:29:14,734][com.dao.UserMapper.getUserById]==>  Preparing: select id, login_name, password from tb_sys_user where id = ? 
+[DEBUG][2014-08-20 16:29:14,828][com.dao.UserMapper.getUserById]==> Parameters: 1(String)
+[TRACE][2014-08-20 16:29:14,843][com.dao.UserMapper.getUserById]<==    Columns: id, login_name, password
+[TRACE][2014-08-20 16:29:14,843][com.dao.UserMapper.getUserById]<==        Row: 1, 11, 22
+[DEBUG][2014-08-20 16:29:14,843][com.dao.UserMapper.getUserById]<==      Total: 1
+[TRACE][2014-08-20 16:29:14,843][org.springframework.transaction.support.TransactionSynchronizationManager]Retrieved value [org.mybatis.spring.SqlSessionHolder@1c7d56b] for key [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory@e931d9] bound to thread [main]
+[TRACE][2014-08-20 16:29:14,843][org.springframework.transaction.support.TransactionSynchronizationManager]Retrieved value [org.mybatis.spring.SqlSessionHolder@1c7d56b] for key [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory@e931d9] bound to thread [main]
+[DEBUG][2014-08-20 16:29:14,843][org.mybatis.spring.SqlSessionUtils]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9ca1fb]
+[TRACE][2014-08-20 16:29:14,843][org.springframework.transaction.interceptor.TransactionInterceptor]Completing transaction for [com.service.UserServiceImpl.getUserById]
+[TRACE][2014-08-20 16:29:14,843][org.springframework.jdbc.datasource.DataSourceTransactionManager]Triggering beforeCommit synchronization
+[TRACE][2014-08-20 16:29:14,843][org.springframework.jdbc.datasource.DataSourceTransactionManager]Triggering beforeCompletion synchronization
+[TRACE][2014-08-20 16:29:14,843][org.springframework.jdbc.datasource.DataSourceTransactionManager]Triggering afterCommit synchronization
+[TRACE][2014-08-20 16:29:14,843][org.springframework.jdbc.datasource.DataSourceTransactionManager]Triggering afterCompletion synchronization
+[TRACE][2014-08-20 16:29:14,843][org.springframework.transaction.support.TransactionSynchronizationManager]Removed value [org.mybatis.spring.SqlSessionHolder@1c7d56b] for key [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory@e931d9] from thread [main]
+[DEBUG][2014-08-20 16:29:14,843][org.mybatis.spring.SqlSessionUtils]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9ca1fb]
+[TRACE][2014-08-20 16:29:14,843][org.springframework.transaction.support.TransactionSynchronizationManager]Retrieved value [org.springframework.jdbc.datasource.ConnectionHolder@174cb21] for key [{
+	CreateTime:"2014-08-20 16:29:14",
+	ActiveCount:1,
+	PoolingCount:0,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:1,
+	ConnectCount:2,
+	Connections:[
+	]
+}] bound to thread [main]
+[TRACE][2014-08-20 16:29:14,843][org.springframework.transaction.support.TransactionSynchronizationManager]Removed value [org.springframework.jdbc.datasource.ConnectionHolder@174cb21] for key [{
+	CreateTime:"2014-08-20 16:29:14",
+	ActiveCount:1,
+	PoolingCount:0,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:1,
+	ConnectCount:2,
+	Connections:[
+	]
+}] from thread [main]
+[DEBUG][2014-08-20 16:29:14,843][org.springframework.jdbc.datasource.DataSourceUtils]Returning JDBC Connection to DataSource
+[TRACE][2014-08-20 16:29:14,843][org.springframework.transaction.support.TransactionSynchronizationManager]Clearing transaction synchronization
+[TRACE][2014-08-20 16:29:14,843][org.springframework.test.context.TestContextManager]afterTestMethod(): instance [testmybatis.AppTest@153f67e], method [public void testmybatis.AppTest.test1()], exception [null]
+[DEBUG][2014-08-20 16:29:14,843][org.springframework.test.context.support.DirtiesContextTestExecutionListener]After test method: context [DefaultTestContext@15bdc50 testClass = AppTest, testInstance = testmybatis.AppTest@153f67e, testMethod = test1@AppTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dd3812 testClass = AppTest, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class dirties context [false], class mode [null], method dirties context [false].
+[TRACE][2014-08-20 16:29:14,843][org.springframework.test.context.TestContextManager]afterTestClass(): class [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:14,843][org.springframework.test.context.support.DirtiesContextTestExecutionListener]After test class: context [DefaultTestContext@15bdc50 testClass = AppTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dd3812 testClass = AppTest, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], dirtiesContext [false].
+[INFO][2014-08-20 16:29:14,843][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1bf3d87: startup date [Wed Aug 20 16:29:13 CST 2014]; root of context hierarchy
+[TRACE][2014-08-20 16:29:14,843][org.springframework.context.support.GenericApplicationContext]Publishing event in org.springframework.context.support.GenericApplicationContext@1bf3d87: org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.GenericApplicationContext@1bf3d87: startup date [Wed Aug 20 16:29:13 CST 2014]; root of context hierarchy]
+[DEBUG][2014-08-20 16:29:14,843][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'sqlSessionFactory'
+[DEBUG][2014-08-20 16:29:14,843][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG][2014-08-20 16:29:14,843][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6214f5: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,userMapper]; root of factory hierarchy
+[DEBUG][2014-08-20 16:29:14,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Retrieved dependent beans for bean 'userServiceImpl': [testmybatis.AppTest]
+[DEBUG][2014-08-20 16:29:14,859][org.springframework.beans.factory.support.DisposableBeanAdapter]Invoking destroy() on bean with name 'druid-stat-interceptor'
+[DEBUG][2014-08-20 16:29:14,859][org.springframework.beans.factory.support.DefaultListableBeanFactory]Retrieved dependent beans for bean '(inner bean)#1aac07d': [transactionAdvice]
+[DEBUG][2014-08-20 16:29:14,859][org.springframework.beans.factory.support.DisposableBeanAdapter]Invoking destroy method 'close' on bean with name 'dataSource'
+[INFO][2014-08-20 16:29:14,859][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
